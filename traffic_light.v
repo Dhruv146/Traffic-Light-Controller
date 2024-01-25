@@ -21,7 +21,7 @@ parameter s0 = 3'b000, s1 = 3'b001, s2 = 3'b010, s3 = 3'b011, s4 =
 reg [2:0] pstate, nstate; //Internal state
 variables
 
-always @(posedgeclk) //state machine using
+  always @(posedgeclk) //state machine using moore
 case statements
 
 begin
