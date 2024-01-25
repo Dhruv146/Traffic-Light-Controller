@@ -6,7 +6,7 @@
 
 module traffic_light(input x, clear, clk,
 
-outputreg [1:0] highway, cross_road);
+output reg [1:0] highway, cross_road);
 
 //2-bit output for 3 states of signal
 
