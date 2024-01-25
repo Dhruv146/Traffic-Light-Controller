@@ -22,7 +22,6 @@ reg [2:0] pstate, nstate; //Internal state
 variables
 
   always @(posedgeclk) //state machine using moore
-case statements
 
 begin
 
